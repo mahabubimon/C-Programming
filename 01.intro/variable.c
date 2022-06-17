@@ -2,12 +2,13 @@
 
 int main(){
 
-    int a, b, sum;
-    a = 8;
-    b = 7;
-    sum = a+b;
+    int num = 10;
 
-    printf("%d", sum);
+    printf("num = %d\n", num);
+    printf("num + 5 = %d\n", num+5);
+    printf("num - 5 = %d\n", num-5);
+    printf("num * 5 = %d\n", num*5);
+    printf("num / 5 = %d\n", num/5);
 
     return 0;
 }
