@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-
+    // float, double, char
     float num1= 8.123456;
     double num2= 26.123491015;
     char ch= 'C';
