@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-
+    // Power Calculation
     double base, exponent, result;
     printf("Enter base and exponent: ");
     scanf("%lf %lf", &base, &exponent);
