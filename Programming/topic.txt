@@ -1,2 +1,25 @@
-C Programming:
+*C Programming:*
+
+1. Introduction
+    A. Translator:
+        a: Assembler: Assemble Language convert to machine code.
+
+        b: Compiler: Source code convert to machine code at a time. (C, C++, C#, Obj-C, Pascal, Cobol, ADA, VB, Scheme).
+
+        c: Interpreter: Source code convert to machine code line by line. (JavaScript, Python, PHP, Go).
+
+    B. Algorithm, Flowchart, Pseudo code.
+    C. Program Step and Debugging.
+    D. Environment Set up.
+
+2. Keyword, Variable & Data Types.
+
+3. Operator, Operand & Expression.
+
+4. Math Topic.
+
+
+
+
+
 
