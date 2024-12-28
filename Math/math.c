@@ -6,7 +6,8 @@ int main() {
 
     // Absolute value
     result = abs(num);
-    printf("Absolute value of %.2lf is %.2lf.\n", num, result);
+    printf("\nAbsolute value of %.2lf is %.2lf.\n", num, result);
+    printf("Absolute value of %.2lf is %.lf.\n", num, num<0 ? -num : num);
 
     // Square root
     result = sqrt(num);
@@ -14,7 +15,7 @@ int main() {
 
     // Power Calculation
     result = pow(num, 2);
-    printf("Power value of %.2lf^2 = %.2lf \n", num, result);
+    printf("Power value of %.2lf^2 = %.2lf\n", num, result);
 
     // Logarithm value
     result = log(num);
