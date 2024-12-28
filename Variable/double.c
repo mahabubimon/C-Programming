@@ -1,14 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main() {
-    // float, double, char
-    float num1= 8.123456;
-    double num2= 26.123491015;
-    char ch= 'C';
+    double num1 = 3.141592653589793;
+    double num2 = 2.718281828459045;
+    double result;
 
-    printf("float number= %f.\n", num1);
-    printf("double number= %lf.\n", num2);
-    printf("Char name= %c.", ch);
+    result = num1 + num2;
+
+    printf("The sum of %lf and %lf is %lf\n", num1, num2, result);
 
     return 0;
 }

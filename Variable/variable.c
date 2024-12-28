@@ -1,20 +1,22 @@
 #include<stdio.h>
 
 int main(){
-    //Variable declaration
-    int num = 10, num2= 12;
-    
-    printf("Your print number is %d.\n", num);
+   // Variable declaration
+    int num1= 5, num2= 8, sum;
+    float num3= 8.123456;
+    double num4= 26.123491015;
+    char ch= 'C';
 
-    printf("num = %d\n", num);
+    // Variable initialization
+    sum= num1 + num2;
 
-    printf("num + 5 = %d\n", num+5);
+    // Variable usage
+    printf("\nSum of %d and %d is %d\n", num1, num2, sum);
 
-    printf("num - 5 = %d\n", num-5);
+    printf("float number= %f\n", num3);
+    printf("double number= %lf\n", num4);
+    printf("Char name= %c\n", ch);
 
-    printf("num * 5 = %d\n", num*5);
-
-    printf("num / 5 = %d\n", num/5);
 
     return 0;
 }
