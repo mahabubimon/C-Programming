@@ -5,17 +5,24 @@ int main() {
     int num;
     char character;
 
-    // ASCII value of a number
+    // ASCII character value of a number
     printf("Enter any number: ");
     scanf("%d", &num);
 
-    printf("ASCII value of %d = %c\n", num, num);
+    printf("ASCII character value of %d = %c\n", num, num);
 
-    // ASCII value of a character
+    // ASCII octal value of a number
+    printf("ASCII octal value of %d = %o\n", num, num);
+
+    // ASCII hexadecimal value of a number
+    printf("ASCII hexadecimal value of %d = %x\n", num, num);
+
+
+    // ASCII decimal value of a character
     // printf("Enter any character: ");
     // character = getchar();
     character =  num;
-    printf("ASCII value of %c = %d\n", character, character);
+    printf("ASCII decimal value of %c = %d\n", character, character);
 
     return 0;
 }
