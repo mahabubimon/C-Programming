@@ -13,7 +13,6 @@ A. Introduction
     4. Environment Set up.
     5. Input & Output
     6. Comments & Escape Sequence.
-    7. 
 
 B. Keyword, Variable & Data Types.
 
