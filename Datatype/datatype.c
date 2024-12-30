@@ -36,19 +36,23 @@ int main() {
     printf("signed char: %c\n", k);
     printf("unsigned char: %c\n", l);
    
-    // 4. Void Data type: Used to specify the return type of functions that do not return a value.
+    /* 
+    4. Void Data type: Used to specify the return type of functions that do not return a value.
 
-    // 5. Boolean Data type: Used to store only two values, either true or false.
+    5. Boolean Data type: Used to store only two values, either true or false.
 
-    // 6. Wide Character Data type: Used to store wide characters like Chinese, Japanese, Korean, etc.
+    6. Wide Character Data type: Used to store wide characters like Chinese, Japanese, Korean, etc.
 
-    // 7. String Data type: Used to store a sequence of characters.
+    7. String Data type: Used to store a sequence of characters.
 
-    // 8. Enumerated Data type: Used to define a set of named integer constants.
+    8. Enumerated Data type: Used to define a set of named integer constants.
 
-    // 9. User-defined Data type: Used to define a new data type using the struct keyword.
+    9. User-defined Data type: Used to define a new data type using the struct keyword.
 
-    // 10. Derived Data type: Used to create a new data type from the existing data types.
+    10. Derived Data type: Used to create a new data type from the existing data types. 
+    
+    */
 
     return 0;
+
 }
