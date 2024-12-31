@@ -15,7 +15,7 @@ int main() {
     if (character >= 'a' && character <= 'z') {
         printf("Uppercase character of %c = %c\n", character, uppercase);
     }else if (character >= 'A' && character <= 'Z') {
-        printf("Lowercase character of %c = %c.\n", character, lowercase);}
+        printf("Lowercase character of %c = %c\n", character, lowercase);}
     else {
         printf("%c is Invalid character.\n", character);
     }
