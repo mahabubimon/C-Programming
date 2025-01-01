@@ -7,8 +7,7 @@ int main() {
     printf("Enter any character: ");
     character = getchar();
 
-    printf("ASCII decimal value of %c = %d\n\n", character, character);
-
+    // Convert lowercase to uppercase and uppercase to lowercase
     uppercase = character - 32; // toupper(character);
     lowercase = character + 32; //tolower(character);
 
@@ -17,7 +16,7 @@ int main() {
     }else if (character >= 'A' && character <= 'Z') {
         printf("Lowercase character of %c = %c\n", character, lowercase);}
     else {
-        printf("%c is Invalid character.\n", character);
+        printf("%c is invalid character.\n", character);
     }
 
     return 0;
