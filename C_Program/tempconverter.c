@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-    // Temperature Converter
+    // Temperature Converter using switch case
     int choice;
     float temp;
 
@@ -20,8 +20,9 @@ int main() {
             // Formula: F = (C * 1.8) + 32
             temp = (temp * 1.8) + 32;
             printf("Temp in Fahrenheit = %.2f\n", temp);
+            
+            break;
         }
-        break;
 
         case 2: 
         { 
@@ -31,9 +32,10 @@ int main() {
 
             // Formula: C = (F - 32) / 1.8 
             temp = (temp - 32) / 1.8;
-            printf("Temp in Fahrenheit = %.2f\n", temp);;
+            printf("Temp in Fahrenheit = %.2f\n", temp);
+            
+            break;
         }
-        break;
     
         default: printf("Invalid choice.\n");
         break;
