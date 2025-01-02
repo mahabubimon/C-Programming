@@ -10,29 +10,29 @@ int main() {
     scanf("%c", &operator);
 
     // switch case to perform calculation
-    switch (operator)
-    {
-        case '+':{
+    switch (operator) {
+        // Addition
+        case '+': {
             printf("Enter two numbers: ");
             scanf("%lf %lf", &num1, &num2);
             printf("%.2f + %.2f = %.2f\n", num1, num2, num1 + num2);
             break;
         }
-
+        // Subtraction
         case '-': {
             printf("Enter two numbers: ");
             scanf("%lf %lf", &num1, &num2);
             printf("%.2f - %.2f = %.2f\n", num1, num2, num1 - num2);
             break;
         }
-
+        // Multiplication
         case '*': {
             printf("Enter two numbers: ");
             scanf("%lf %lf", &num1, &num2);
             printf("%.2f * %.2f = %.2f\n", num1, num2, num1 * num2);
             break;
         }
-
+        // Division
         case '/': {
             printf("Enter two numbers: ");
             scanf("%lf %lf", &num1, &num2);
@@ -43,7 +43,7 @@ int main() {
             } 
             break;
         }
-
+        // Invalid operator
         default:
             printf("Invalid operator.\n");
             break;

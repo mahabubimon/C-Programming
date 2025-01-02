@@ -2,12 +2,14 @@
 
 int main() {
 
-    // Ternary Operator
-    int a = 10, b = 20, result;
+    // Check if a person is eligible to vote
+    int age;
 
-    // Ternary Operator "? :"
-    result = (a > b) ? a : b;
-    printf("Largest number between %d and %d is %d\n", a, b, result);
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    // Ternary Operator: expression ? true : false
+    (age >= 18) ? printf("You are eligible to vote.\n") : printf("You are not eligible to vote.\n");
 
     return 0;
 }
