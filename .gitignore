@@ -1,9 +1,9 @@
-## Ignore tasks
-.vscode
+.vscode/
 
-## Ignore executables
-Loop/*.exe
+Math/
 
+
+.env
 
 
 
