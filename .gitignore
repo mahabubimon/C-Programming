@@ -1,8 +1,8 @@
 ## Ignore tasks
-/.vscode
+.vscode
 
 ## Ignore executables
-*.exe
+*/.exe
 
 
 
