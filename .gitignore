@@ -1,8 +1,9 @@
-# Ignore editor and IDE specific files
-.vscode/tasks.json
+## Ignore tasks
+/.vscode
 
-# Ignore object files, shared libraries, and executables
+## Ignore executables
 *.exe
+
 
 
 
