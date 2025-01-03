@@ -1,14 +1,7 @@
-.vscode/
+# ignore .vscode folder
+.vscode
 
-Math/
-
-/Loop
-
-/*.exe
-
-
-.env
-
-
+# ignore all .exe files
+*.exe
 
 
