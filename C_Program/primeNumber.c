@@ -4,9 +4,9 @@
 int main() {
     // Count, print and sum of prime numbers between two numbers
 
-    int startingNum, endingNum, countPrimeNumbers = 0, sumPrimeNumbers = 0, i, j, f=2;
+    int startingNum, endingNum, count, total = 0, sum = 0, i, j;
 
-    printf("Count, print and sum of prime numbers between two numbers.\n");
+    printf("Count and sum of prime numbers between two numbers.\n");
 
     printf("Enter starting number: ");
     scanf("%d", &startingNum);
@@ -16,14 +16,14 @@ int main() {
 
     // Check if starting number is less than ending number
 
-    if (startingNum < endingNum && startingNum > 0 && endingNum > 1) {
+    if (startingNum < endingNum && endingNum > 1) {
         // Loop through the numbers to find prime numbers
 
-        printf("Prime numbers between %d and %d are: ", startingNum, endingNum);
+        printf("\nPrime numbers between %d and %d are: ", startingNum, endingNum);
 
         for (i = startingNum; i <= endingNum; i++) {
 
-            int count = 0;
+            count = 0;
 
             for (j = 2; j <= sqrt(i); j++) {
                 if (i % j == 0) {
@@ -33,13 +33,14 @@ int main() {
             }
             if (count == 0 && i > 1) {
                 printf("%d, ", i);
-                countPrimeNumbers++;
-                sumPrimeNumbers += i;
+                total++;
+                sum += i;
             }
         }
 
-        printf("\nTotal prime numbers between %d and %d are: %d\n", startingNum, endingNum, countPrimeNumbers);
-        printf("Sum of prime numbers between %d and %d is: %d\n", startingNum, endingNum, sumPrimeNumbers);
+        printf("\n\nTotal prime numbers between %d and %d are: %d\n", startingNum, endingNum, total);
+        printf("Sum of prime numbers between %d and %d is: %d\n", startingNum, endingNum, sum); 
+        printf("Average of prime numbers between %d and %d is: %.2f\n", startingNum, endingNum, (float)sum / total);
 
     } else {
         printf("Invalid input!!! Enter ending number greater than 1. ");
