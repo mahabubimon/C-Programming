@@ -43,7 +43,7 @@ int main() {
         printf("Average of prime numbers between %d and %d is: %.2f\n", startingNum, endingNum, (float)sum / total);
 
     } else {
-        printf("Invalid input!!! Enter ending number greater than 1. ");
+        printf("Invalid input!!! Enter ending number greater than 1.");
         printf("Starting number should be less than ending number!!!\n");
     }
 
