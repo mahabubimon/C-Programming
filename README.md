@@ -1,2 +1,2 @@
-"# Learning C-Programming." 
-
+# C Programming Language Practice
+C is a general-purpose, procedural, and middle-level programming language used for developing computer software, system programming, applications, games, and more. Known for its simplicity and efficiency, C is an excellent choice for beginners as it provides a strong foundation in programming concepts. C was developed by Dennis M. Ritchie at Bell Laboratories in 1972. Initially, it was created for programming the UNIX operating system.
