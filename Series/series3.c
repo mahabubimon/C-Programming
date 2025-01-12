@@ -5,7 +5,7 @@ int main() {
     int num, i;
     double sum = 0;
 
-    printf("Series: 1 + 1/2 + 1/3 .... + 1/n.\nEnter n = ");
+    printf("Series: 1 + 1/2 + 1/3 ... + 1/n.\nEnter n = ");
     scanf("%d", &num);
 
     for (i=1; i<=num; i++) {
