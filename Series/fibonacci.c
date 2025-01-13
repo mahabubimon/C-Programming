@@ -2,24 +2,24 @@
 
 int main() {
 
-    int n, first = 0, second = 1, count = 0, fibonacci = 0, result = 0;
+    int n, first = 0, second = 1, count = 0, fib = 0, result = 0;
 
-    printf("Enter fibonacci n = ");
+    printf("Enter fibonacci count 'n' = ");
     scanf("%d", &n);
 
     while (count<n) {
 
         if (count<=1) {
-            fibonacci = count;
+            fib = count;
         } else {
-            fibonacci = first + second;
+            fib = first + second;
             first = second;
-            second = fibonacci;
+            second = fib;
         }
 
-        result = result + fibonacci;
+        result = result + fib;
 
-        count != n - 1 ? printf("%d + ", fibonacci) : printf("%d = %d. \n", fibonacci, result);
+        count != n - 1 ? printf("%d + ", fib) : printf("%d = %d. \n", fib, result);
 
         count++;
     }
