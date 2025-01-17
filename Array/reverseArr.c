@@ -7,7 +7,7 @@ int main() {
     printf("Enter array length: ");
     scanf("%d", &n);
 
-    int numArr[n], newArr[n];
+    int numArr[n], revArr[n];
 
     printf("Enter %d numbers: ", n);
 
@@ -23,17 +23,17 @@ int main() {
     printf("%d", numArr[n-1]);
     printf(" }\n");
 
-    // Copying arrNum value to newArr.
+    // reversing arrNum value to revArr.
     for(i=0; i<n; i++) {
-        newArr[i] = numArr[i];
+        revArr[i] = numArr[n-1-i];
     }
 
-    printf("New array [] = { ");
+    printf("Reverse array [] = { ");
     for (i=0; i<n-1; i++) {
-        printf("%d, ", newArr[i]);
+        printf("%d, ", revArr[i]);
     }
 
-    printf("%d", newArr[n-1]);
+    printf("%d", revArr[n-1]);
     printf(" }\n");
 
     return 0;
