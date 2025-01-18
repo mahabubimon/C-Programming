@@ -19,7 +19,7 @@ int main() {
     }
 
     // Iteration on 2D array
-    printf("Your 2D array = { \n");
+    printf("Your %d row and %d column 2D array = { \n", row, col);
 
     for (i=0; i<row; i++) {
         printf("  { ");
