@@ -66,7 +66,7 @@ int main() {
 
 
     //Output Matrix A + B
-    printf("\nMatrix A + B = ");
+    printf("\nMatrix A + B =   ");
     for (i=0; i<row; i++) {
 
         for (j=0; j<col; j++) {
@@ -76,7 +76,7 @@ int main() {
     }
 
     //Output Matrix A - B
-    printf("\nMatrix A - B = ");
+    printf("\nMatrix A - B =   ");
     for (i=0; i<row; i++) {
 
         for (j=0; j<col; j++) {
