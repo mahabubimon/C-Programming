@@ -15,7 +15,7 @@ int main() {
     for (i=0; i<row; i++) {
 
         for (j=0; j<col; j++) {
-            printf("Enter Element Matrix A[%d][%d]: ", i, j);
+            printf("Matrix A[%d][%d]: ", i, j);
             scanf("%d", &matrixA[i][j]);
         }
         printf("\n");
@@ -27,7 +27,7 @@ int main() {
     for (i=0; i<row; i++) {
 
         for (j=0; j<col; j++) {
-            printf("Enter Element Matrix B[%d][%d]: ", i, j);
+            printf("Matrix B[%d][%d]: ", i, j);
             scanf("%d", &matrixB[i][j]);
         }
         printf("\n");
@@ -66,7 +66,7 @@ int main() {
 
 
     //Output Matrix A + B
-    printf("\nMatrix A + B =   ");
+    printf("\nMatrix A + B =  ");
     for (i=0; i<row; i++) {
 
         for (j=0; j<col; j++) {
@@ -76,7 +76,7 @@ int main() {
     }
 
     //Output Matrix A - B
-    printf("\nMatrix A - B =   ");
+    printf("\nMatrix A - B =  ");
     for (i=0; i<row; i++) {
 
         for (j=0; j<col; j++) {

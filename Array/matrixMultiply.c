@@ -2,7 +2,7 @@
 
 int main() {
 
-    int row1, row2, col1, col2, i, j, k;
+    int row1, row2, col1, col2, i, j, k, sum = 0;
 
     while (col1 != row2) {
         printf("\nEnter 1st matrix row and col: ");
@@ -16,7 +16,7 @@ int main() {
         }
     }
     
-    int matrixA [row1][col1], matrixB [row2][col2], result [row1][col1];
+    int matrixA[row1][col1], matrixB[row2][col2], result[row1][col2];
 
     //Input Matrix A Elements
     printf("\nEnter Matrix A Elements:\n");
@@ -24,7 +24,7 @@ int main() {
     for (i=0; i<row1; i++) {
 
         for (j=0; j<col1; j++) {
-            printf("Enter Element Matrix A[%d][%d]: ", i, j);
+            printf("Matrix A[%d][%d]: ", i, j);
             scanf("%d", &matrixA[i][j]);
         }
         printf("\n");
@@ -36,20 +36,23 @@ int main() {
     for (i=0; i<row2; i++) {
 
         for (j=0; j<col2; j++) {
-            printf("Enter Element Matrix B[%d][%d]: ", i, j);
+            printf("Matrix B[%d][%d]: ", i, j);
             scanf("%d", &matrixB[i][j]);
         }
         printf("\n");
     }
 
-    // // Sum and Sub of Matrix A and B.
-    // for (i=0; i<row; i++) {
+    // Multiplication of Matrix A and B.
+    for (i=0; i<row1; i++) {
+        for (j=0; j<col2; j++) {
+            for (k=0; k<col1; k++) {
+                sum = sum + matrixA[i][k] * matrixB[k][j];
+            }
 
-    //     for (j=0; j<col; j++) {
-    //         sumAB[i][j] = matrixA[i][j] + matrixB[i][j];
-    //         subAB[i][j] = matrixA[i][j] - matrixB[i][j];
-    //     }
-    // }
+            result[i][j] = sum;
+            sum = 0;
+        }  
+    }
 
     //Output Matrix A Elements
     printf("\nMatrixA: ");
@@ -74,25 +77,15 @@ int main() {
     }
 
 
-    // //Output Matrix A + B
-    // printf("\nMatrix A + B =   ");
-    // for (i=0; i<row; i++) {
+    //Output Matrix A * B
+    printf("\nMatrix: A * B = ");
+    for (i=0; i<row1; i++) {
 
-    //     for (j=0; j<col; j++) {
-    //         printf("%d  ", sumAB[i][j]);
-    //     }
-    //     printf("\n\t\t");
-    // }
-
-    // //Output Matrix A - B
-    // printf("\nMatrix A - B =   ");
-    // for (i=0; i<row; i++) {
-
-    //     for (j=0; j<col; j++) {
-    //         printf("%d  ", subAB[i][j]);
-    //     }
-    //     printf("\n\t\t");
-    // }
+        for (j=0; j<col2; j++) {
+            printf("%d  ", result[i][j]);
+        }
+        printf("\n\t\t");
+    }
 
     return 0;
 }
