@@ -9,7 +9,7 @@ int main() {
 
     int matrixA[row][col], matrixTRP[col][row];
 
-    // Input Matrix A Elements
+    // Input matrixA elements
     printf("\nEnter MatrixA Elements:\n");
 
     for (i=0; i<row; i++) {
