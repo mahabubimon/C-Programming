@@ -8,7 +8,6 @@ int main() {
     printf("\nEnter matrixA Elements:\n");
 
     for (i=0; i<3; i++) {
-
         for (j=0; j<3; j++) {
             printf("matrixA[%d][%d]: ", i, j);
             scanf("%d", &matrixA[i][j]);
@@ -20,7 +19,6 @@ int main() {
     printf("\nMatrixA: ");
 
     for (i=0; i<3; i++) {
-
         for (j=0; j<3; j++) {
             printf("%d  ", matrixA[i][j]);
         }
@@ -28,7 +26,7 @@ int main() {
     }
 
     // Sum of diagonal elements of matrixA
-    printf("\nSum of diagonal elements of matrixA: ");
+    printf("\nDiagonal elements of matrixA: ");
     for (i=0; i<3; i++) {
         for (j=0; j<3; j++) {
             if (i==j) {
@@ -38,7 +36,7 @@ int main() {
         }
     }
 
-    printf(" = %d\n", sum);
+    printf("\nSum of diagonal elements = %d\n", sum);
 
     return 0;
 }

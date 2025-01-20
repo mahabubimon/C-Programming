@@ -19,8 +19,8 @@ int main() {
         sum = sum + num[i];
     }
 
-    printf("Sum = %d \n", sum);
-    printf("Average = %.2lf", sum/(float)n);
+    printf("\nSum = %d \n", sum);
+    printf("Average = %.2lf \n", sum/(float)n);
 
     return 0;
 }

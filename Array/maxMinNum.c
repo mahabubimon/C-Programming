@@ -19,9 +19,7 @@ int main() {
     min = num[1];
 
     for (i=1; i<n; i++) {
-        
         if(max<num[i]) max = num[i];
-
         if(min>num[i]) min = num[i];
     }
 

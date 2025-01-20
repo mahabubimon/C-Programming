@@ -22,7 +22,6 @@ int main() {
     printf("\nEnter Matrix A Elements:\n");
 
     for (i=0; i<row1; i++) {
-
         for (j=0; j<col1; j++) {
             printf("Matrix A[%d][%d]: ", i, j);
             scanf("%d", &matrixA[i][j]);
@@ -34,7 +33,6 @@ int main() {
     printf("\nEnter Matrix B Elements:\n");
 
     for (i=0; i<row2; i++) {
-
         for (j=0; j<col2; j++) {
             printf("Matrix B[%d][%d]: ", i, j);
             scanf("%d", &matrixB[i][j]);
