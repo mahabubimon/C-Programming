@@ -7,27 +7,27 @@ int main() {
     printf("Enter row and col value: ");
     scanf("%d %d", &row, &col);
 
-    int matrixA [row][col], matrixB [row][col], sumAB [row][col], subAB [row][col];
+    int matrixA[row][col], matrixB[row][col], sumAB[row][col], subAB[row][col];
 
-    //Input Matrix A Elements
-    printf("\nEnter Matrix A Elements:\n");
+    // Input matrixA elements
+    printf("\nEnter matrixA Elements:\n");
 
     for (i=0; i<row; i++) {
 
         for (j=0; j<col; j++) {
-            printf("Matrix A[%d][%d]: ", i, j);
+            printf("matrixA[%d][%d]: ", i, j);
             scanf("%d", &matrixA[i][j]);
         }
         printf("\n");
     }
 
-    //Input Matrix B Elements
-    printf("\nEnter Matrix B Elements:\n");
+    // Input matrix elements
+    printf("\nEnter matrixB elements:\n");
 
     for (i=0; i<row; i++) {
 
         for (j=0; j<col; j++) {
-            printf("Matrix B[%d][%d]: ", i, j);
+            printf("matrixB[%d][%d]: ", i, j);
             scanf("%d", &matrixB[i][j]);
         }
         printf("\n");
@@ -42,7 +42,7 @@ int main() {
         }
     }
 
-    //Output Matrix A Elements
+    // Output Matrix A Elements
     printf("\nMatrixA: ");
 
     for (i=0; i<row; i++) {
@@ -53,7 +53,7 @@ int main() {
         printf("\n\t ");
     }
 
-    //Output Matrix B Elements
+    // Output matrixB elements
     printf("\nMatrixB: ");
 
     for (i=0; i<row; i++) {
@@ -65,7 +65,7 @@ int main() {
     }
 
 
-    //Output Matrix A + B
+    // Output Matrix A + B
     printf("\nMatrix A + B =  ");
     for (i=0; i<row; i++) {
 
@@ -75,7 +75,7 @@ int main() {
         printf("\n\t\t");
     }
 
-    //Output Matrix A - B
+    // Output Matrix A - B
     printf("\nMatrix A - B =  ");
     for (i=0; i<row; i++) {
 
