@@ -20,13 +20,6 @@ int main() {
         printf("\n");
     }
 
-    // Create transpose of matrix A
-    for (i=0; i<row; i++) {
-        for (j=0; j<col; j++) {
-            matrixTRP[j][i] = matrixA[i][j];
-        }
-    }
-
     // Output Matrix A Elements
     printf("\nMatrixA: ");
 
@@ -35,6 +28,13 @@ int main() {
             printf("%d  ", matrixA[i][j]);
         }
         printf("\n\t ");
+    }
+
+    // Create transpose of matrix A
+    for (i=0; i<row; i++) {
+        for (j=0; j<col; j++) {
+            matrixTRP[j][i] = matrixA[i][j];
+        }
     }
 
     // Output transpose matrix of matrixA
