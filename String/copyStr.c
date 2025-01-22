@@ -7,7 +7,7 @@ int main() {
 
     int i = 0;
 
-    // Copy string using strcat() function
+    // Copy string using strcpy()
     // strcpy(target, source);
 
     // Copy string using loop
