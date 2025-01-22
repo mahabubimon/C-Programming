@@ -22,7 +22,7 @@ int main() {
         j++;
     }
 
-    printf("Concatenate: %s \n", str1);
+    printf("Concatenate string: %s \n", str1);
     printf("Length 1st string: %d \n", len);
 
     return 0;
