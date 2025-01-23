@@ -3,21 +3,24 @@
 
 int main() {
 
-    char str1[] = "madam", rev[20];
-    
-    int i, j, len = strlen(str1);
+    char str1[20], rev[20];
 
-    for (i=0, j=len-1; i<len; i++) {
-        rev[i] = str1[j]; j--;
+    printf("Enter a string less than 20 char: ");
+    gets(str1);
+    
+    int i, len = strlen(str1);
+
+    for (i=0; i<len; i++) {
+        rev[i] = str1[len-i-1];
     }
 
     int d = strcmp(str1, rev);
 
     if (d==0) {
-        printf("The string is palindrome.\n");
+        printf("\n%s is palindrome.\n", str1);
         
     } else {
-        printf("The string is not palindrome.\n");
+        printf("\n%s is not palindrome.\n", str1);
     }
 
     return 0;
