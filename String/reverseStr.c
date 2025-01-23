@@ -4,7 +4,7 @@
 int main() {
 
     char name[30], reverse[30];
-    int i;
+    int i, j;
 
     printf("Enter name: ");
     gets(name);
@@ -15,8 +15,8 @@ int main() {
     // strrev(name);
 
     // string reverse using loop
-    for (i=0; i<len; i++) {
-        reverse[i] = name[len-1-i];
+    for (i=0, j=len-1; i<len; j--, i++) {
+        reverse[i] = name[j];
     }
 
     printf("Name: %s\n", name);
