@@ -13,6 +13,7 @@ A. Introduction
     4. Environment Set up.
     5. Input & Output
     6. Comments & Escape Sequence.
+    7. Type Casting.
 
 B. Keyword, Variable & Data Types.
 
@@ -20,7 +21,7 @@ C. Operator, Operand & Expression.
 
 D. Math Topic.
 
-5. Type Casting.
+
 
 
 
