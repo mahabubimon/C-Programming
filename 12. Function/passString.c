@@ -1,5 +1,9 @@
 #include<stdio.h>
 
+void printString(char str[]) {
+    printf("You entered: %s\n", str);
+}
+
 int main() {
 
     char str[100];
@@ -7,9 +11,7 @@ int main() {
     printf("Enter a string: ");
     gets(str);
 
-    printf("You entered: ");
-    puts(str);
-
+    printString(str);
 
     return 0;
 }
